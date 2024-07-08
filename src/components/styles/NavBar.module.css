@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+:root{
+    --textColor: #eee;
+    --color: #ff9ed2;
+    --button: #ffdaee;
+    --buttonTransparent: #f7ebed;
+    --black: #444;
+    --black_2: #333;
+    --gray: #808080;
+    --grayTransparent: #ddd;
+}
+header{
+    width: 100%;
+    overflow: hidden;
+}
+.header{
+    display: flex;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background-color: var(--black_2);
+    color: var(--textColor);
+    overflow: hidden;
+}
+.logo a{
+    /* width: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    text-decoration: none;
+    color: var(--textColor);
+}
+.logo a:hover{
+    color: var(--color);
+}
+.logo img{
+    width: 30%;
+    height: 70px;
+}
+.header nav a{
+    width: 100%;
+    /* border: 1px solid black; */
+    padding: 10px;
+    color: var(--textColor);
+    text-decoration: none;
+    /* background-color: red; */
+}
+.header nav a:hover{
+    color: var(--button);
+    background-color: var(--black);
+}
+.header .nav_btn{
+    width: 50px;
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--textColor);
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.2rem;
+}
+
+
+@media only screen and (max-width: 1024px){
+    .header .nav_btn{
+        visibility: visible;
+        opacity: 1;
+    }
+    .header nav{
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--black_2);
+        transition: 1s;
+        transform: translateX(100vh);
+    }
+    .header .responsive_nav{
+        transform: none;
+    }
+    nav .nav_close_btn{
+        position: absolute;
+        top: 1rem;
+        left: 0.1rem;
+
+    }
+    nav a{
+        font-size: 1.3rem;
+    }
+}
+@media (max-width: 390px) {
+    .logo a{
+        width: 79%;
+    }
+}
