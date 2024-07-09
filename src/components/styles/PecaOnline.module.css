@@ -6,7 +6,7 @@
     width: 90%;
     /* height: auto; */
     display: flex;
-    text-align: center;
+    text-align: justify;
     flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
@@ -63,6 +63,7 @@
     width: 40%;
     background-color: white;
     padding: 20px;
+    text-align: justify;
 }
 .box_p p{
     text-align: justify;

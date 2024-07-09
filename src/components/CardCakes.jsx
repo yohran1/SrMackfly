@@ -23,9 +23,3 @@ CardCakes.propTypes = {
     price: PropType.string,
     img: PropType.string
 }
-// CardCakes.defaultProps = {
-//     title: 'Card',
-//     information: 'Information Card',
-//     price: '0,00',
-//     img: 'https://via.placeholder.com/150'
-// }
