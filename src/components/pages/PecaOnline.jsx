@@ -21,7 +21,7 @@ export default function PecaOnline(){
         <section className={style.section}>
         <div className={style.container}>
             <div className={style.infoPedidos}>
-                {/* <h2>MENU DE BOLOS</h2> */}
+                <h2>MENU DE BOLOS</h2>
                 <p>Encomendar com 3 dias de antecedência</p>
                 <h4>Bolos de Casamento</h4>
             </div>
@@ -63,7 +63,7 @@ export default function PecaOnline(){
                         img={cake_6}
                     />
                 </div>
-                <div className={style.pedidos}>
+                <div className={style.pedidosCreate}>
                     <h3>Personalize Seu Bolo</h3>
                     <CardCakes 
                         title='Personalize seu próprio Bolo'

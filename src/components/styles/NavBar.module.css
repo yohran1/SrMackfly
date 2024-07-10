@@ -29,7 +29,6 @@ header{
     overflow: hidden;
 }
 .logo a{
-    /* width: 50%; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,11 +45,9 @@ header{
 }
 .header nav a{
     width: 100%;
-    /* border: 1px solid black; */
     padding: 10px;
     color: var(--textColor);
     text-decoration: none;
-    /* background-color: red; */
 }
 .header nav a:hover{
     color: var(--button);

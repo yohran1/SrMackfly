@@ -19,6 +19,8 @@
     flex-wrap: wrap;
 }
 .container h1{
+    font-size: 40px;
+
     margin-top: 20px;
     margin: auto;
 }
@@ -27,10 +29,16 @@
 }
 .infoPedidos{
     color: black;
-    margin: 20px auto;
+    margin: auto;
+    text-align: center;
+}
+.infoPedidos h4{
+    margin: 0 auto;
 }
 .infoPedidos p{
     color: gray;
+    margin: 5px auto;
+
 }
 .pedidos{
     color: black;
@@ -71,6 +79,23 @@
 .pedidos h3{
     margin-bottom: 20px;
 }
+.pedidosCreate{
+    display: flex;
+    flex-direction: column;
+}
+.box_contato{
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+}
+.box_contato h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+}
+.box_contato p{
+    margin: 20px auto;
+}
 @media(max-width:700px){
     .container{
         width: 90%;
@@ -83,22 +108,11 @@
     .box_p{
         overflow: hidden;
     }
-}
-.box_contato{
-    width: 80%;
-    margin: auto;
-    text-align: justify;
-}
-.box_contato h1{
-    text-align: center;
-    margin-top: 20px;
-}
-.box_contato p{
-    margin: 20px auto;
-}
-@media (max-width: 390px) {
     .box_contato{
         width: 100%;
         text-align: justify;
+    }
+    .pedidosCreate{
+        width: 100%;
     }
 }
