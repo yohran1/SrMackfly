@@ -115,4 +115,22 @@
     .pedidosCreate{
         width: 100%;
     }
+    .box_info{
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+    }
+    .imgConfeiteiro{
+        width: 100%;
+        height: 400px;
+        margin-bottom: 10px;
+    }
+    .imgConfeiteiro img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .box_p{
+        width: 100%;
+    }
 }

@@ -1,5 +1,4 @@
 import style from '../styles/PecaOnline.module.css'
-import NavBar from "../NavBar"
 import Footer from "../layout/Footer"
 import confeiteiro from '../img/cakes/confeiteiro-1.webp'
 
@@ -7,7 +6,6 @@ export default function Sobre(){
 
     return(
         <>
-            <NavBar />
             <section className={style.section}>
                 <div className={style.container}>
                     <h1>SOBRE</h1>

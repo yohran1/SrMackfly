@@ -1,5 +1,4 @@
 import style from '../styles/PecaOnline.module.css'
-import NavBar from '../NavBar'
 import Footer from '../layout/Footer'
 import FormEmail from '../form/FormEmail'
 
@@ -8,7 +7,6 @@ export default function Sobre(){
 
     return(
         <>
-            <NavBar />
             <section className={style.section}>
                 <div className={style.container}>
                     <div className={style.box_contato}>

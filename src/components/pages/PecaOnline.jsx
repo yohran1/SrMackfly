@@ -1,4 +1,3 @@
-import NavBar from "../NavBar";
 import style from '../styles/PecaOnline.module.css'
 import CardCakes from "../CardCakes";
 import Footer from '../layout/Footer'
@@ -17,7 +16,6 @@ export default function PecaOnline(){
 
     return (
         <>
-            <NavBar />
         <section className={style.section}>
         <div className={style.container}>
             <div className={style.infoPedidos}>

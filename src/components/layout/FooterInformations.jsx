@@ -9,7 +9,7 @@ export default function FooterInformations(){
                 <div className={style.boxs}>
                     <h3>Inicio</h3>
                     <ul>
-                        <li><Link to="/srmackfly">Home</Link></li>
+                        <li><Link to="/">Home</Link></li>
                         <li><Link to="/pecaOnline">Produtos</Link></li>
                         <li><a href="/error">Download</a></li>
                     </ul>
