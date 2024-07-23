@@ -9,25 +9,25 @@ export default function FooterInformations(){
                 <div className={style.boxs}>
                     <h3>Inicio</h3>
                     <ul>
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/pecaOnline">Produtos</Link></li>
-                        <li><a href="/error">Download</a></li>
+                        <li><Link to="/srmackfly/srmackfly">Home</Link></li>
+                        <li><Link to="/srmackfly/pecaOnline">Produtos</Link></li>
+                        <li><a href="/srmackfly/error">Download</a></li>
                     </ul>
                 </div>
                 <div className={style.boxs}>
                     <h3>Informações</h3>
                     <ul>
-                        <li><a href="/error">Blog</a></li>
-                        <li><Link to="/contato">Contato</Link></li>
-                        <li><Link to="/contato">Email</Link></li>
+                        <li><a href="/srmackfly/error">Blog</a></li>
+                        <li><Link to="/srmackfly/contato">Contato</Link></li>
+                        <li><Link to="/srmackfly/contato">Email</Link></li>
                     </ul>
                 </div>
                 <div className={style.boxs}>
                     <h3>Suporte</h3>
                     <ul>
-                        <li><a href="/error">FAQ</a></li>
-                        <li><Link to="/contato">Telefone</Link></li>
-                        <li><a href="/error">Chat</a></li>
+                        <li><a href="/srmackfly/error">FAQ</a></li>
+                        <li><Link to="/srmackfly/contato">Telefone</Link></li>
+                        <li><a href="/srmackfly/error">Chat</a></li>
                     </ul>
                 </div>
 

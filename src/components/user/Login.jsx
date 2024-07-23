@@ -57,10 +57,10 @@ export default function Login(){
                     <SubmitButton text='Login' onClick={enviarDados}/>
                 <div className={style.linksLogin}>
                 <div className={style.forgot_password}>
-                    <Link to="/forgotpassword">Esqueceu sua senha?</Link>
+                    <Link to="/srmackfly/forgotpassword">Esqueceu sua senha?</Link>
                 </div>
                     <div className={style.forgot_password}>
-                        <Link to="/register">Cadastre-se</Link>
+                        <Link to="/srmackfly/register">Cadastre-se</Link>
                     </div>
                 </div>
                 <div className={style.social_media_login}>

@@ -6,7 +6,7 @@ export default function Error(){
         <>
             <div className={style.error}>
                 <h1>Error 403</h1>
-                <a href='/'>Retornar a página principal</a>
+                <a href='/srmackfly'>Retornar a página principal</a>
             </div>
             
         </>

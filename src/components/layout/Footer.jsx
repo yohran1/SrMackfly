@@ -8,7 +8,7 @@ export default function Footer({msg}){
 
     return (
         <footer className={style.footer}>
-            <a href='/'><TiUserOutline /><span>{msg}</span></a>
+            <a href='/srmackfly'><TiUserOutline /><span>{msg}</span></a>
 
             <p>Yohran Kallahari | Sr-Mackfly &copy;</p>
 

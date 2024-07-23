@@ -18,16 +18,16 @@ export default function NavBar(){
         <header>
             <div className={style.header}>
                 <div className={style.logo}>
-                 <Link to='/'>
+                 <Link to='/srmackfly'>
                      <img src={icon} alt={icon} />
                      <p>Bolos de Casamento Por Sr-MackFly</p>
                  </Link>
              </div>
                 <nav className={isNavVisible ? style.responsive_nav : ''}>
-                    <Link to='/'>Página Inicial</Link>
-                    <Link to='/pecaOnline'>Peça Online</Link>
-                    <Link to='/contato'>Contato</Link>
-                    <Link to='/sobre'>Sobre</Link>
+                    <Link to='/srmackfly'>Página Inicial</Link>
+                    <Link to='/srmackfly/pecaOnline'>Peça Online</Link>
+                    <Link to='/srmackfly/contato'>Contato</Link>
+                    <Link to='/srmackfly/sobre'>Sobre</Link>
                     <button className={`${style.nav_btn} ${style.nav_close_btn}`} onClick={mostrarNavBar}>
                         <FaTimes />
                     </button>

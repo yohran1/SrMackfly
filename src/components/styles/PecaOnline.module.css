@@ -72,6 +72,8 @@
     background-color: white;
     padding: 20px;
     text-align: justify;
+    overflow:auto;
+
 }
 .box_p p{
     text-align: justify;

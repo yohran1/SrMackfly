@@ -8,15 +8,15 @@ export default function HeaderLocation(){
         <>
         <header className={style.header}>
             <p>Retirada, o mais rápido possível (em 15 minutos)</p>
-            <a href="/pecaOnline">Alterar</a>
+            <a href="/srmackfly/pecaOnline">Alterar</a>
         </header>
         <div className={style.menu}>
             <h3>MENU DE BOLOS</h3>
             <ul>
-                <Link to='/pecaOnline'>
+                <Link to='/srmackfly/pecaOnline'>
                     <li>Bolos de Casamento</li>
                 </Link>
-                <Link to='/pecaOnline'>
+                <Link to='/srmackfly/pecaOnline'>
                     <li>Personalize Seu Bolo</li>
                 </Link>
                 
