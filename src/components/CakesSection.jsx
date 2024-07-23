@@ -25,7 +25,7 @@ export default function CakesSection(){
                 <div className={style.cakes_box}>
                     <div className={style.image_container}>
                         <img src={cake_2} alt='Cake' />
-                        <Link to='/srmackfly/pecaOnline'>
+                        <Link to='/SrMackfly/pecaOnline'>
                             <button>Faça seu pedido online</button>
                         </Link>
                     </div>
@@ -33,7 +33,7 @@ export default function CakesSection(){
                 <div className={style.cakes_box}>
                     <div className={style.image_container}>
                         <img src={confeiteiro} alt='Confeiteiro' />
-                        <Link to='/srmackfly/sobre'>
+                        <Link to='/SrMackfly/sobre'>
                             <button>Conheça o confeiteiro</button>
                         </Link>
                     </div>
@@ -41,7 +41,7 @@ export default function CakesSection(){
                 <div className={style.cakes_box}>
                     <div className={style.image_container}>
                         <img src={cake_2} alt='Cake' />
-                        <Link to='/srmackfly/pecaOnline'>
+                        <Link to='/SrMackfly/pecaOnline'>
                             <button>Personalize seu bolo</button>
                         </Link>
                     </div>
