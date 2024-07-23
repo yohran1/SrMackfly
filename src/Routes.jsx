@@ -11,11 +11,11 @@ export default function SrMackfly(){
         <BrowserRouter>
         <NavBar />
             <Routes>
-                <Route path='/srmackfly' element={<Projeto />} />
-                <Route path='/srmackfly/pecaOnline' element={<PecaOnline />} />
-                <Route path='/srmackfly/contato' element={<Contato />} />
-                <Route path='/srmackfly/sobre' element={<Sobre />} />
-                <Route path='/srmackfly/error' element={<Error />} />
+                <Route path='/SrMackfly' element={<Projeto />} />
+                <Route path='/SrMackfly/pecaOnline' element={<PecaOnline />} />
+                <Route path='/SrMackfly/contato' element={<Contato />} />
+                <Route path='/SrMackfly/sobre' element={<Sobre />} />
+                <Route path='/SrMackfly/error' element={<Error />} />
             </Routes>
         </BrowserRouter>
     )

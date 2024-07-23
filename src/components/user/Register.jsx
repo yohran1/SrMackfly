@@ -39,7 +39,7 @@ export default function Register(){
                 <Message message={message}/>
                 <SubmitButton text='Registro'/>
             <div className={style.has_registration}>
-                <Link to="/srmackfly/login">Já possui cadastro?</Link>
+                <Link to="/SrMackfly/login">Já possui cadastro?</Link>
             </div>
                 <div className={style.social_media_login}>
                 <a href="https://www.facebook.com/yohran.venancio/">

@@ -3,7 +3,7 @@ import Footer from '../layout/Footer'
 import cakes_1 from '../img/cakes/bolo-layout-4.jpg'
 import CakesSection from '../CakesSection'
 import Carrossel from '../Carrossel'
-import FooterInformations from '../layout/FooterInformations'
+import FooterInformations from '../../../../../FooterInformations'
 
 export default function SrMackfly(){
 

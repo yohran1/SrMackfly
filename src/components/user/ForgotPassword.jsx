@@ -24,7 +24,7 @@ export default function ForgotPassword(){
                     
                     <div className={style.buttons}>
                         <SubmitButton text='Salvar'/>   
-                        <Link to='/srmackfly/login'>
+                        <Link to='/SrMackfly/login'>
                             <SubmitButton text='Voltar'></SubmitButton> 
                         </Link>
                     </div>
