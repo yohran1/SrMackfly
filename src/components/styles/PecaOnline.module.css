@@ -19,10 +19,12 @@
     flex-wrap: wrap;
 }
 .container h1{
-    font-size: 40px;
-
+    font-size: 35px;
     margin-top: 20px;
     margin: auto;
+}
+h2{
+    font-size: 20px;
 }
 .container p{
     margin: 10px auto;

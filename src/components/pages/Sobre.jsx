@@ -9,7 +9,7 @@ export default function Sobre(){
             <section className={style.section}>
                 <div className={style.container}>
                     <h1>SOBRE</h1>
-                    <p>SR-MACKFLY, RENOMADO CONFEITEIRO.</p>
+                    <h2>SR-MACKFLY, RENOMADO CONFEITEIRO.</h2>
                     <p>Sou um parágrafo. Clique aqui para editar e adicionar o seu próprio texto. É fácil! Basta clicar em “Editar Texto” ou clicar duas vezes sobre mim e você poderá adicionar o seu próprio conteúdo e trocar fontes. Sinta-se à vontade para me arrastar e soltar em qualquer lugar na sua página. Sou um ótimo lugar para você contar sua história.</p>
                     <div className={style.box_info}>
                         <div className={style.imgConfeiteiro}>
