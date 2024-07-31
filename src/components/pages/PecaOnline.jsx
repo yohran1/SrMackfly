@@ -60,16 +60,17 @@ export default function PecaOnline(){
                         price='100'
                         img={cake_6}
                     />
+                    <div className={style.pedidosCreate}>
+                        <h3>Personalize Seu Bolo</h3>
+                        <CardCakes 
+                            title='Personalize seu próprio Bolo'
+                            information='Esse é um item do seu menu. Adicione uma breve descrição.'
+                            price='0,00'
+                            img={create}
+                        />
+                    </div>
                 </div>
-                <div className={style.pedidosCreate}>
-                    <h3>Personalize Seu Bolo</h3>
-                    <CardCakes 
-                        title='Personalize seu próprio Bolo'
-                        information='Esse é um item do seu menu. Adicione uma breve descrição.'
-                        price='0,00'
-                        img={create}
-                    />
-                </div>
+                
         </div>
         </section>
             <Footer />

@@ -1,6 +1,5 @@
 
 .section{
-    
     color: black;
     margin: auto;
     background-color: rgba(247, 235, 237, 1);
@@ -21,20 +20,14 @@
     display: flex;
     flex-wrap: wrap;
 }
-.container h1{
-    font-size: 35px;
-    margin-top: 20px;
-    margin: auto;
+.textInformation{
     width: 100%;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-h2{
-    font-size: 20px;
-    width: 100%;
-    text-align: center;
-}
-.container p{
-    margin: 10px auto;
+.textInformation h1, .textInformation h2{
+    margin: 0;
 }
 .infoPedidos{
     color: black;
@@ -52,7 +45,7 @@ h2{
 .pedidos{
     color: black;
     margin: 20px auto;
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -62,9 +55,9 @@ h2{
     color: gray;
 }
 .box_info{
-    margin: 20px auto;
-    width: 55%;
-    height: 380px;
+    margin: auto;
+    width: 60%;
+    height: 480px;
     display: flex;
     justify-content: space-between;
 }

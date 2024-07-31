@@ -16,10 +16,7 @@ export default function Sobre(){
                         <p>Coletas são possíveis na Av. lorem ipsum de Campos, 000 Santa Catarina - SC 12345-678, BRASIL</p>
                     </div>
                     <FormEmail />
-                    
-
                 </div>
-
             </section>
             <Footer />
         </>
